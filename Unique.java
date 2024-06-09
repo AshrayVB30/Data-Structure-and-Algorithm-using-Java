@@ -29,3 +29,17 @@ public class Unique {
             System.out.print("No");
     }
 }
+
+
+// Algorithm: Unique of Array element(A[1, 2, 3,.....n])
+// Input: Array of element(A)
+// Output: Yes/No
+//   for i <- 0 to n -2
+//     for j <- i+1 to n-1
+//       if A[i] == A[j]
+//         return False
+//   return True
+
+// Time Complexity: T(n) ∈ O(n^2)
+//    The time complexity of this algorithm, it's O(n^2), where n is the size of the array. 
+//     This is because it uses nested loops to compare each element in the array with every other element, resulting in quadratic time complexity.
