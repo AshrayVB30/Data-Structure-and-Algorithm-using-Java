@@ -23,3 +23,13 @@ public class PrimeNumber {
         }
     }
 }
+
+
+// Algorithm: Generate list of prime numbers using Sieve Eratostenes Algorithm
+// Step 1: Start
+// Step 2: Start with a list of numbers from 0 to limit, and assume all of them are prime
+// Step 3: Start from 2, the first prime number and mark all its multiples as non-prime
+// Step 4: Move to the next unmarked number(which will be prime)and repeat the process
+// Step 5: Continue this process until you've checked all the numbers up to the square root of the limit.
+// Step 6: The numbers that are still marked as prime at the end are the prime number.
+// Step 7: End
