@@ -22,3 +22,12 @@ public class gcdConsecative {
 		System.out.print("GCD using Consecative method: "+gcdC(num1, num2));
 	}
 }
+
+// Algorithm in Consecative method:
+// Step 1:Start
+// Step 2: m, n
+// Step 3: t <- min(m, n)
+// Step 4: m % t = 0, n % t = 0, return t
+//         otherwise goto Step-5
+// Step 5: t <- t - 1, goto Step-3
+// Step 6:End
