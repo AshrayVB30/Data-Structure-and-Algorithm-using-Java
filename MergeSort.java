@@ -77,3 +77,33 @@ public class MergeSort {
         }
     }
 }
+
+
+
+// Algorithm: MergeSort(A[0,1,2,.....n-1])
+//             if n > 1:
+//               copy(A[0,.....n/2-1]) to (B[0,.....n/2-1])
+//               copy(A[0,.....n/2-1]) to (C[0,.....n/2-1])
+//               MergeSort(B[0,.....n/2-1])
+//               MergeSort[C[0,.....n/2-1]]
+//               Merge(B, C, A)
+
+//           Merge(B[0,.....p-1], C[0,.....q-1], A[0,.....p+q-1])
+//             i <- 0;
+//             j <- 0;
+//             k <- 0;
+//             while i < p and j < q:
+//               if B[i] <= C[j]
+//                 A[k] <- B[i]
+//                 i <- i+1
+//               else
+//                 A[k] <- C[j]
+//                 j <- j+1
+//                 k++;
+//                 if i = p:
+//                   copy C[j....q-1] to A[k......p+q-1]
+//                 else
+//                   copy B[i....p-1] to A[k.....p+q-1]
+
+// Time Complexity: 
+//   Worst case: T(n) ∈ O(n log n)
