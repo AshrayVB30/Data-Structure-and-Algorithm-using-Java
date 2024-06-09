@@ -43,3 +43,11 @@ public class BubbleSort {
         }
     }
 }
+
+// Algorithm: BubbleSort(A[0.......n-1])
+//               for i <- 0 to n-2 do:
+//                 for j <- 0 to n-2-i:
+//                   if A[j+1] < A[j]
+//                     swap(A[j], A[j+1])
+
+// Time Complexity: T(n) ∈ O(n^2)
